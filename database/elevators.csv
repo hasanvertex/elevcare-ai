@@ -1,0 +1,3 @@
+elevator_id,customer_id,model,serial_number,capacity
+E001,C001,ISUZU X1,SN1001,8 Persons
+E002,C002,ISUZU X2,SN1002,10 Persons
