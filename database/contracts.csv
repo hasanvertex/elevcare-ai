@@ -1,3 +1,3 @@
 contract_id,customer_id,start_date,end_date,status
-CT001,C001,2025-01-01,2026-01-01,Active
-CT002,C002,2025-06-01,2026-06-01,Active
+CT001,C001,1/1/2025,1/1/2027,Active
+CT002,C002,6/1/2025,7/10/2026,Active

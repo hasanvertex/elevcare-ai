@@ -1,3 +1,4 @@
 visit_id,elevator_id,visit_date,technician,remarks
-V001,E001,2026-06-20,Ahmed,Monthly PM
-V002,E002,2026-06-21,Khalid,Safety Inspection
+V001,E001,6/20/2026,Ahmed,Monthly PM
+V002,E002,6/21/2026,Khalid,Safety Inspection
+V003,E001,7/15/2026,Ahmed,Emergency Repair

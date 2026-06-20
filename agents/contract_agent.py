@@ -1,25 +1,46 @@
 from datetime import datetime
+import pandas as pd
+
 
 class ContractAgent:
 
-    def check_contract(self, customer, expiry_date):
+    def check_contract(self, customer_id, expiry_date):
 
         today = datetime.today()
-        expiry = datetime.strptime(expiry_date, "%Y-%m-%d")
+        expiry = datetime.strptime(expiry_date, "%m/%d/%Y")
 
         days_left = (expiry - today).days
 
-        if days_left <= 30:
-            return f"{customer} contract expires in {days_left} days. Renewal recommended."
+        if days_left < 0:
+            return f"{customer_id}: Contract has expired."
 
-        return f"{customer} contract is active."
+        elif days_left <= 30:
+            return f"{customer_id}: Contract expires in {days_left} days. Renewal recommended."
+
+        else:
+            return f"{customer_id}: Contract is active."
+
+    def check_contracts(self):
+
+        contracts = pd.read_csv("database/contracts.csv")
+
+        results = []
+
+        for _, row in contracts.iterrows():
+
+            result = self.check_contract(
+                row["customer_id"],
+                row["end_date"]
+            )
+
+            results.append(result)
+
+        return results
 
 
-agent = ContractAgent()
+if __name__ == "__main__":
 
-print(
-    agent.check_contract(
-        "ABC Tower",
-        "2026-07-10"
-    )
-)
+    agent = ContractAgent()
+
+    for result in agent.check_contracts():
+        print(result)
