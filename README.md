@@ -1,3 +1,14 @@
+Production-Grade Multi-Agent Elevator Maintenance Management System
+
+Developed for the Google × Kaggle – 5-Day AI Agents Intensive Capstone Project
+
+Track: Agents for Business
+
+🌟 Overview
+
+ElevCare AI ERP is an AI-powered Elevator Maintenance & Service Management System designed to help elevator companies manage customers, elevators, maintenance schedules, technicians, contracts, inventory, work orders, and reports from a single modern dashboard.
+
+The project follows a Multi-Agent AI Architecture powered by Google Gemini and Google ADK concepts, providing intelligent automation for maintenance operations and business workflows.
 # 🚀 ElevCare AI ERP
 
 > **Production-Grade Multi-Agent Elevator Maintenance Management
