@@ -1,16 +1,22 @@
-from contract_agent import ContractAgent
-from maintenance_agent import MaintenanceAgent
+class ManagerAgent:
 
+    def __init__(
+        self,
+        customers,
+        elevators,
+        contracts,
+        maintenance
+    ):
+        self.customers = customers
+        self.elevators = elevators
+        self.contracts = contracts
+        self.maintenance = maintenance
 
-contract_agent = ContractAgent()
-maintenance_agent = MaintenanceAgent()
+    def summary(self):
 
-print("\n========== ELEVCARE AI ==========\n")
-
-print("CONTRACT STATUS:")
-for item in contract_agent.check_contracts():
-    print("-", item)
-
-print("\nMAINTENANCE STATUS:")
-for item in maintenance_agent.check_visits():
-    print("-", item)
+        return {
+            "customers": len(self.customers),
+            "elevators": len(self.elevators),
+            "contracts": len(self.contracts),
+            "maintenance": len(self.maintenance)
+        }

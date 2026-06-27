@@ -1,31 +1,14 @@
-import pandas as pd
-
 
 class MaintenanceAgent:
 
-    def check_visits(self):
+    def __init__(self, maintenance):
+        self.maintenance = maintenance
 
-        visits = pd.read_csv(
-            "database/maintenance.csv"
-        )
+    def upcoming_summary(self):
 
-        results = []
+        total = len(self.maintenance)
 
-        for _, row in visits.iterrows():
-
-            results.append(
-                f"{row['visit_date']} | "
-                f"Elevator {row['elevator_id']} | "
-                f"{row['technician']} | "
-                f"{row['remarks']}"
-            )
-
-        return results
-
-
-if __name__ == "__main__":
-
-    agent = MaintenanceAgent()
-
-    for result in agent.check_visits():
-        print(result)
+        return {
+            "upcoming": total,
+            "message": f"{total} maintenance visits available."
+        }

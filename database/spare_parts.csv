@@ -1,0 +1,51 @@
+part_id,part_name,stock
+P001,Door Sensor,66
+P002,PCB Board,50
+P003,Door Roller,23
+P004,Door Sensor,3
+P005,Motor Bearing,55
+P006,Fan,66
+P007,Contactor,5
+P008,Door Roller,98
+P009,Door Sensor,35
+P010,Display Board,85
+P011,Fan,10
+P012,Limit Switch,14
+P013,Relay,8
+P014,Emergency Light,43
+P015,Limit Switch,20
+P016,Motor Bearing,56
+P017,Emergency Light,15
+P018,Inverter,68
+P019,Encoder,3
+P020,Contactor,10
+P021,Motor Bearing,99
+P022,Guide Shoe,48
+P023,Door Sensor,94
+P024,Guide Shoe,40
+P025,Door Sensor,38
+P026,Relay,62
+P027,PCB Board,69
+P028,Limit Switch,86
+P029,Encoder,65
+P030,Fan,36
+P031,Display Board,35
+P032,Fan,44
+P033,Button Panel,6
+P034,Emergency Light,48
+P035,PCB Board,59
+P036,Door Lock,4
+P037,Motor Bearing,58
+P038,Door Roller,57
+P039,Contactor,51
+P040,Emergency Light,7
+P041,Door Roller,42
+P042,Button Panel,18
+P043,Emergency Light,52
+P044,Contactor,59
+P045,Relay,60
+P046,Guide Shoe,88
+P047,Contactor,17
+P048,Display Board,55
+P049,Emergency Light,23
+P050,Limit Switch,37

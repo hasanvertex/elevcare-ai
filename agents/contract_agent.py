@@ -1,46 +1,101 @@
-from datetime import datetime
 import pandas as pd
+from datetime import datetime
 
 
 class ContractAgent:
 
-    def check_contract(self, customer_id, expiry_date):
+    def __init__(self, contracts):
+        self.contracts = contracts
+
+    def expiring_contracts(self, days=30):
 
         today = datetime.today()
-        expiry = datetime.strptime(expiry_date, "%m/%d/%Y")
 
-        days_left = (expiry - today).days
+        alerts = []
 
-        if days_left < 0:
-            return f"{customer_id}: Contract has expired."
+        for _, row in self.contracts.iterrows():
 
-        elif days_left <= 30:
-            return f"{customer_id}: Contract expires in {days_left} days. Renewal recommended."
+            try:
+                end_date = pd.to_datetime(
+                    row["end_date"]
+                )
 
-        else:
-            return f"{customer_id}: Contract is active."
+                remaining = (
+                    end_date - today
+                ).days
 
-    def check_contracts(self):
+                if 0 <= remaining <= days:
 
-        contracts = pd.read_csv("database/contracts.csv")
+                    alerts.append({
+                        "customer": row["customer_id"],
+                        "days_left": remaining,
+                        "end_date": row["end_date"]
+                    })
 
-        results = []
+            except:
+                pass
 
-        for _, row in contracts.iterrows():
+        return alerts
 
-            result = self.check_contract(
-                row["customer_id"],
-                row["end_date"]
+    def expired_contracts(self):
+
+        today = datetime.today()
+
+        expired = []
+
+        for _, row in self.contracts.iterrows():
+
+            try:
+                end_date = pd.to_datetime(
+                    row["end_date"]
+                )
+
+                if end_date < today:
+
+                    expired.append({
+                        "customer": row["customer_id"],
+                        "end_date": row["end_date"]
+                    })
+
+            except:
+                pass
+
+        return expired
+
+    def total_contracts(self):
+
+        return len(self.contracts)
+
+    def active_contracts(self):
+
+        today = datetime.today()
+
+        count = 0
+
+        for _, row in self.contracts.iterrows():
+
+            try:
+                end_date = pd.to_datetime(
+                    row["end_date"]
+                )
+
+                if end_date >= today:
+                    count += 1
+
+            except:
+                pass
+
+        return count
+
+    def summary(self):
+
+        return {
+            "total": self.total_contracts(),
+            "active": self.active_contracts(),
+            "expired": len(
+                self.expired_contracts()
+            ),
+            "expiring": len(
+                self.expiring_contracts()
             )
-
-            results.append(result)
-
-        return results
-
-
-if __name__ == "__main__":
-
-    agent = ContractAgent()
-
-    for result in agent.check_contracts():
-        print(result)
+        }

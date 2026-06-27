@@ -1,0 +1,12 @@
+dashboard.py update:
+
+dashboard_page(
+    data["customers"],
+    data["elevators"],
+    data["contracts"],
+    data["maintenance"],
+    active,
+    warning,
+    expired,
+    alerts
+)

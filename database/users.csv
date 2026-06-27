@@ -1,0 +1,11 @@
+username,password,role,name
+admin,admin123,Admin,Administrator
+office,office123,Office,Office Staff
+ahmed,ahmed123,Technician,Ahmed Ali
+khalid,khalid123,Technician,Khalid Hassan
+faisal,faisal123,Technician,Faisal Ahmed
+omar,omar123,Technician,Omar Hasan
+saeed,saeed123,Office,Saeed Khan
+abdullah,abdullah123,Technician,Abdullah Noor
+mohammed,mohammed123,Technician,Mohammed Ali
+yasir,yasir123,Office,Yasir Hossain
