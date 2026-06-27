@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/hero-banner.png" alt="ElevCare AI ERP" width="100%">
+  <img src="[assets/images/hero-banner.png](https://github.com/hasanvertex/elevcare-ai/blob/main/assets/screenshots/hero-banner.png)" alt="ElevCare AI ERP" width="100%">
 </p>
 
 # 🚀 ElevCare AI ERP
