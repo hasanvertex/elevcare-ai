@@ -1,35 +1,18 @@
-<!-- ================= HERO BANNER ================= -->
-
 <p align="center">
-  <img src="assets/screenshots/images/hero-banner.png" alt="ElevCare AI ERP Hero Banner" width="100%">
+  <img src="./assets/screenshots/Images/hero-banner.png" alt="Hero Banner" width="100%">
 </p>
 
----
-
-## 🌟 Project Showcase
-
 <p align="center">
-  <img src="assets/screenshots/images/github-banner.png" alt="ElevCare AI ERP GitHub Banner" width="100%">
+  <img src="./assets/screenshots/Images/github-banner.png" alt="GitHub Banner" width="100%">
 </p>
 
----
-
-## 🏗️ AI System Architecture
-
 <p align="center">
-  <img src="assets/screenshots/images/ai-architecture.png" alt="ElevCare AI ERP AI Architecture" width="95%">
+  <img src="./assets/screenshots/Images/ai-architecture.png" alt="AI Architecture" width="95%">
 </p>
 
----
-
-## 🔄 Business Workflow
-
 <p align="center">
-  <img src="assets/screenshots/images/workflow.png" alt="ElevCare AI ERP Workflow" width="95%">
+  <img src="./assets/screenshots/Images/workflow.png" alt="Workflow" width="95%">
 </p>
-
----
-
 # 🚀 ElevCare AI ERP
 
 > **Production-Grade Multi-Agent Elevator Maintenance Management
