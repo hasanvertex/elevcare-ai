@@ -1,15 +1,34 @@
+<!-- ================= HERO BANNER ================= -->
+
 <p align="center">
-  <img src="assets/screenshots/Images/hero-banner.png" alt="ElevCare AI ERP" width="100%">
+  <img src="assets/images/hero-banner.png" alt="ElevCare AI ERP Hero Banner" width="100%">
 </p>
+
+---
+
+## 🌟 Project Showcase
+
 <p align="center">
-  <img src="assets/screenshots/Images/git-hub-banner" alt="ElevCare AI ERP" width="100%">
+  <img src="assets/images/github-banner.png" alt="ElevCare AI ERP GitHub Banner" width="100%">
 </p>
+
+---
+
+## 🏗️ AI System Architecture
+
 <p align="center">
-  <img src="assets/screenshots/Images/ai-architecture" alt="ElevCare AI ERP" width="100%">
+  <img src="assets/images/ai-architecture.png" alt="ElevCare AI ERP AI Architecture" width="95%">
 </p>
+
+---
+
+## 🔄 Business Workflow
+
 <p align="center">
-  <img src="assets/screenshots/Images/workflow" alt="ElevCare AI ERP" width="100%">
+  <img src="assets/images/workflow.png" alt="ElevCare AI ERP Workflow" width="95%">
 </p>
+
+---
 
 # 🚀 ElevCare AI ERP
 
