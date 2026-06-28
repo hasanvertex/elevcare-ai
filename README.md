@@ -15,6 +15,19 @@
 </p>
 # 🚀 ElevCare AI ERP
 
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+
+![Streamlit](https://img.shields.io/badge/Streamlit-Framework-red?style=for-the-badge&logo=streamlit)
+
+![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge&logo=google)
+
+![AI Agents](https://img.shields.io/badge/Multi-Agent-AI-success?style=for-the-badge)
+
+![GitHub](https://img.shields.io/badge/Open_Source-Project-black?style=for-the-badge&logo=github)
+
+</p>
 > **Production-Grade Multi-Agent Elevator Maintenance Management
 > System**\
 > Built for the **Google × Kaggle -- 5-Day AI Agents Intensive (Capstone
