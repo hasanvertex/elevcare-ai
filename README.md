@@ -9,19 +9,28 @@
 <p align="center">
   <img src="./assets/screenshots/Images/workflow.png" alt="Workflow" width="95%">
 </p>
-🚀 ElevCare AI ERP
+
+
+<h1 align="center">🚀 ElevCare AI ERP</h1>
+
+<p align="center">
+AI-Powered Multi-Agent Elevator Maintenance & Service Management System
+</p>
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-![Streamlit](https://img.shields.io/badge/Streamlit-Framework-red?style=for-the-badge&logo=streamlit)
+![Streamlit](https://img.shields.io/badge/Streamlit-Framework-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge&logo=google)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-![AI Agents](https://img.shields.io/badge/Multi-Agent-AI-success?style=for-the-badge)
+![Multi-Agent AI](https://img.shields.io/badge/Multi--Agent-AI-8A2BE2?style=for-the-badge)
 
-![GitHub](https://img.shields.io/badge/Open_Source-Project-black?style=for-the-badge&logo=github)
+![Open Source](https://img.shields.io/badge/Open-Source-181717?style=for-the-badge&logo=github&logoColor=white)
+
+</p>
+
 
 </p>
 > **Production-Grade Multi-Agent Elevator Maintenance Management
