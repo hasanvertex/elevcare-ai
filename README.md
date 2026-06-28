@@ -9,7 +9,7 @@
 <p align="center">
   <img src="./assets/screenshots/Images/workflow.png" alt="Workflow" width="95%">
 </p>
-# 🚀 ElevCare AI ERP
+## 🚀 ElevCare AI ERP
 
 <p align="center">
 
