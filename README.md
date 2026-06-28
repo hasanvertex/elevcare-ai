@@ -3,10 +3,6 @@
 </p>
 
 <p align="center">
-  <img src="./assets/screenshots/Images/git-hub-banner" alt="GitHub Banner" width="100%">
-</p>
-
-<p align="center">
   <img src="./assets/screenshots/Images/ai-architecture.png" alt="AI Architecture" width="95%">
 </p>
 
