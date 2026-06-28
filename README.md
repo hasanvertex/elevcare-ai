@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/screenshots/Images/github-banner.png" alt="GitHub Banner" width="100%">
+  <img src="./assets/screenshots/Images/git-hub-banner" alt="GitHub Banner" width="100%">
 </p>
 
 <p align="center">
