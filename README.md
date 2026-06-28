@@ -1,6 +1,16 @@
 <p align="center">
   <img src="assets/screenshots/Images/hero-banner.png" alt="ElevCare AI ERP" width="100%">
 </p>
+<p align="center">
+  <img src="assets/screenshots/Images/git-hub-banner" alt="ElevCare AI ERP" width="100%">
+</p>
+<p align="center">
+  <img src="assets/screenshots/Images/ai-architecture" alt="ElevCare AI ERP" width="100%">
+</p>
+<p align="center">
+  <img src="assets/screenshots/Images/workflow" alt="ElevCare AI ERP" width="100%">
+</p>
+
 # 🚀 ElevCare AI ERP
 
 > **Production-Grade Multi-Agent Elevator Maintenance Management
